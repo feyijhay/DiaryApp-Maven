@@ -46,6 +46,7 @@ public class DiaryServiceImpl implements DiaryService {
 
     }
 
+
     @Override
     public Diary findUserBy(String username) {
 
