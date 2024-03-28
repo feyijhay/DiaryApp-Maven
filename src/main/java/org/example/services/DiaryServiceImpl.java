@@ -43,7 +43,6 @@ public class DiaryServiceImpl implements DiaryService {
         if(!loginRequest.getUsername().equals(diary.get().getUserName())) throw new UserNotRegisteredException("User Not Registered");
         diary.get().setLocked(false);
 
-
     }
 
 
